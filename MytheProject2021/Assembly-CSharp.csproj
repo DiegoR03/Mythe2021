@@ -57,8 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Developers\Scripts\ThirdPersonMovement.cs" />
-    <Compile Include="Assets\Developers\Scripts\FieldOfView.cs" />
+    <Compile Include="Assets\Developers\Scripts\SceneSwitch.cs" />
     <Compile Include="Assets\Developers\Scripts\Patrol.cs" />
+    <Compile Include="Assets\Developers\Scripts\FieldOfView.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
