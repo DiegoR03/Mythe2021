@@ -10,6 +10,7 @@ public class FieldOfView : MonoBehaviour
     public float angle;
 
     public GameObject playerRef;
+    public GameObject Panel;
 
     public LayerMask targetMask;
     public LayerMask obstructionMask;
@@ -47,14 +48,32 @@ public class FieldOfView : MonoBehaviour
                 float distanceToTarget = Vector3.Distance(transform.position, target.position);
 
                 if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstructionMask))
+                {
                     canSeePlayer = true;
+                    GameOver();
+                }
                 else
+                {
                     canSeePlayer = false;
+                }
             }
             else
+            {
                 canSeePlayer = false;
+            }
         }
         else if (canSeePlayer)
             canSeePlayer = false;
     }
+
+    public void GameOver()
+    {
+        if (Panel != null)
+        {
+            bool isActive = Panel.activeSelf;
+
+            Panel.SetActive(true);
+        }
+    }
+
 }
