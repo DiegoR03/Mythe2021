@@ -73,6 +73,7 @@ public class FieldOfView : MonoBehaviour
             bool isActive = Panel.activeSelf;
 
             Panel.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 

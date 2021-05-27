@@ -57,12 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Developers\Scripts\ThirdPersonMovement.cs" />
+    <Compile Include="Assets\Developers\Scripts\UI Scripts\InGamePanel.cs" />
     <Compile Include="Assets\Developers\Scripts\SceneSwitch.cs" />
     <Compile Include="Assets\Developers\Scripts\UI Scripts\Menu.cs" />
     <Compile Include="Assets\Developers\Scripts\Patrol.cs" />
     <Compile Include="Assets\Developers\Scripts\UI Scripts\LevelSelect.cs" />
     <Compile Include="Assets\Developers\Scripts\FieldOfView.cs" />
-    <Compile Include="Assets\Developers\Scripts\UI Scripts\InGamePanel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -638,8 +638,14 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
