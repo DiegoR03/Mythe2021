@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1842
     height: 1037
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1842
     height: 1037
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 68
+  controlID: 18
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 73
+  controlID: 71
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 74
+  controlID: 72
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -192,8 +192,8 @@ MonoBehaviour:
     y: 0
     width: 312
     height: 630
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -439,23 +439,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 4045ffffe24cffff2c87ffff9e8effff5097ffffcc9cffffaca2ffff00a8fffffebaffff9acaffff10ceffff52dcffffdcdcffffc0e0ffff3ce1ffffb8e6ffff80eaffff9cf0ffff3af4ffff56fbffff3e3a0000ce3a0000103b00003c4200002e4300000e48000050480000ac4d00009e4e0000f84e0000e24f00002450000020540000d85500002456000010760000a87600009c7700005eb200005ab30000cabb0000f4bb00007ebc0000c4d10000b4d4000062d60000765d0100a45d0100aa5d0100fc5e0100ae5f0100
+      m_SelectedIDs: 1eb3ffff
+      m_LastClickedID: -19682
+      m_ExpandedIDs: 2ab3ffff32b3ffff44b5ffff4cb5ffff4eb5ffff8cb9ffffdeb9ffff2ebbffff30bbffff32c5ffffb0c6ffff54d9ffffa6d9ffffccdfffffcee0ffff9ae6ffff80efffff56fbffff683a0000283b00009e4a00001c5000002a510000ba5100008e7400008c7500009a76000068920000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Enemy (1)
-        m_OriginalName: Enemy (1)
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 43202
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -501,9 +501,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -52.619457, y: -35.194386, z: 23.317986}
+    m_Target: {x: 17.614368, y: -29.095726, z: 23.663929}
     speed: 2
-    m_Value: {x: -52.619457, y: -35.194386, z: 23.317986}
+    m_Value: {x: 17.614368, y: -29.095726, z: 23.663929}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -550,13 +550,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.22874415, y: 0.5145932, z: -0.14327146, w: -0.81426096}
+    m_Target: {x: -0.35687196, y: -0.2479139, z: 0.100608334, w: -0.8954302}
     speed: 2
-    m_Value: {x: -0.2284516, y: 0.5156393, z: -0.14356577, w: -0.8132127}
+    m_Value: {x: -0.35674068, y: -0.2478227, z: 0.10057133, w: -0.89510083}
   m_Size:
-    m_Target: 41.903217
+    m_Target: 35.20603
     speed: 2
-    m_Value: 40.098774
+    m_Value: 35.20603
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -619,22 +619,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Game
+    - Assets/Developers/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes/Game
+  - Assets/Developers/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Diego\OneDrive - Mediacollege Amsterdam\GitHub\Mythe2021\MytheProject2021
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: dc3d0000
-    m_LastClickedID: 15836
-    m_ExpandedIDs: 00000000c43d0000c63d0000c83d0000ca3d0000d83d000000ca9a3b
+    m_SelectedIDs: ec3d0000
+    m_LastClickedID: 15852
+    m_ExpandedIDs: 00000000d43d0000d63d0000d83d0000da3d0000ee3d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -662,7 +662,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c43d0000c63d0000c83d0000ca3d0000
+    m_ExpandedIDs: 00000000d43d0000d63d0000d83d0000da3d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
