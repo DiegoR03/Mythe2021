@@ -15,11 +15,11 @@ C:/Users/Diego/OneDrive - Mediacollege Amsterdam/GitHub/Mythe2021/MytheProject20
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51060
+52316
 Successfully changed project path to: C:/Users/Diego/OneDrive - Mediacollege Amsterdam/GitHub/Mythe2021/MytheProject2021
 C:/Users/Diego/OneDrive - Mediacollege Amsterdam/GitHub/Mythe2021/MytheProject2021
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 22.54 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 23.78 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,22 +35,22 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002213 seconds.
+Registered in 0.002349 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 32.67 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.134 seconds
+- Completed reload, in  1.205 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000798 seconds.
+Registered in 0.000930 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
@@ -59,136 +59,113 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.764 seconds
+- Completed reload, in  0.828 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1107 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 58.7 MB.
 System memory in use after: 58.8 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1551.
-Total: 1.664200 ms (FindLiveObjects: 0.156800 ms CreateObjectMapping: 0.041300 ms MarkObjects: 1.402200 ms  DeleteObjects: 0.062900 ms)
+Total: 1.595100 ms (FindLiveObjects: 0.124700 ms CreateObjectMapping: 0.039800 ms MarkObjects: 1.365600 ms  DeleteObjects: 0.064000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Game/Levels/Level1/LightingData.asset
-  artifactKey: Guid(1ff4e56578bba7c478f1a768ce55a490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game/Levels/Level1/LightingData.asset using Guid(1ff4e56578bba7c478f1a768ce55a490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbac6b37463b7ea373b8fcbca9c75b8c') in 0.034830 seconds
-  Import took 0.036415 seconds .
+  path: Assets/art/UV Unwrapped models/FloorPlane.fbx
+  artifactKey: Guid(f48f0081221245b42ad87add5bc84f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/UV Unwrapped models/FloorPlane.fbx using Guid(f48f0081221245b42ad87add5bc84f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c824f577310685c1f621948508ca8a4b') in 0.169838 seconds
+  Import took 0.171818 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000470 seconds.
-  path: Assets/Scenes/Game/Levels/Level1/ReflectionProbe-0.exr
-  artifactKey: Guid(830c586e11959f343aa795ce77bfbfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game/Levels/Level1/ReflectionProbe-0.exr using Guid(830c586e11959f343aa795ce77bfbfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139be769ff83d422401dbb9a4904410d') in 0.078374 seconds
-  Import took 0.080006 seconds .
+  Time since last request: 1.159620 seconds.
+  path: Assets/art/textures/Floor
+  artifactKey: Guid(085bea514f4852b4cab04143064972be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/textures/Floor using Guid(085bea514f4852b4cab04143064972be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1907c4268ac9c9bcb683d3d78b3267cb') in 0.002856 seconds
+  Import took 0.004549 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000489 seconds.
-  path: Assets/Scenes/Game/Levels/Level1
-  artifactKey: Guid(147988705266d0b4691b0d1f8e593fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game/Levels/Level1 using Guid(147988705266d0b4691b0d1f8e593fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972c20d03ee4828ed8d2ba5d1442ffb6') in 0.002881 seconds
-  Import took 0.004219 seconds .
+  Time since last request: 0.067808 seconds.
+  path: Assets/art/textures/Floor/FloorPlane_lambert1_AlbedoTransparency.png
+  artifactKey: Guid(df405e8021a040a47840def7b6d977f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/textures/Floor/FloorPlane_lambert1_AlbedoTransparency.png using Guid(df405e8021a040a47840def7b6d977f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826dc308f231245923016746518960da') in 0.029948 seconds
+  Import took 0.032034 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.008418 seconds.
-  path: Assets/Scenes/Game/Levels/Level2.unity
-  artifactKey: Guid(64f092038d054484797a915bdb124de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game/Levels/Level2.unity using Guid(64f092038d054484797a915bdb124de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257c8dc799e9574e28ed724b65003b52') in 0.004343 seconds
-  Import took 0.005994 seconds .
+  Time since last request: 0.000477 seconds.
+  path: Assets/art/textures/Floor/FloorPlane_lambert1_Normal.png
+  artifactKey: Guid(334062147dac72642b79810e9d54bdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/textures/Floor/FloorPlane_lambert1_Normal.png using Guid(334062147dac72642b79810e9d54bdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca10f859b24638055ef11698c8f2615e') in 0.010434 seconds
+  Import took 0.012149 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.664093 seconds.
-  path: Assets/Scenes/Game/Levels/Level1.unity
-  artifactKey: Guid(1bfe754633c1c614c8893b1299e70051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game/Levels/Level1.unity using Guid(1bfe754633c1c614c8893b1299e70051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7e34da0add9c29ab981f4a8dcc9a64') in 0.003568 seconds
-  Import took 0.005476 seconds .
+  Time since last request: 0.000661 seconds.
+  path: Assets/art/textures/Floor/FloorPlane_lambert1_MetallicSmoothness.png
+  artifactKey: Guid(5434ab5c312ddf747b7f408e66821364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/textures/Floor/FloorPlane_lambert1_MetallicSmoothness.png using Guid(5434ab5c312ddf747b7f408e66821364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64636ae7a093ce49490b47cc2bb4162b') in 0.011326 seconds
+  Import took 0.013233 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.876648 seconds.
-  path: Assets/Scenes/Game/Levels/Level1/LightingData 1.asset
-  artifactKey: Guid(d9b289bded1a090489bd1bf53eaf7374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game/Levels/Level1/LightingData 1.asset using Guid(d9b289bded1a090489bd1bf53eaf7374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b149953380a38ff9c6c7cbee02f6cf6f') in 0.003580 seconds
-  Import took 0.005662 seconds .
+  Time since last request: 6.557763 seconds.
+  path: Assets/art/textures/Floor/Floor.mat
+  artifactKey: Guid(c450d427cb361e74aaf0c4a912c8833e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/textures/Floor/Floor.mat using Guid(c450d427cb361e74aaf0c4a912c8833e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749209c78795bd560b1d15bfe6e9f56f') in 0.014268 seconds
+  Import took 0.016252 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006066 seconds.
-  path: Assets/Scenes/Game/Levels/Level1/LightingData 1.asset
-  artifactKey: Guid(d9b289bded1a090489bd1bf53eaf7374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game/Levels/Level1/LightingData 1.asset using Guid(d9b289bded1a090489bd1bf53eaf7374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b149953380a38ff9c6c7cbee02f6cf6f') in 0.002972 seconds
-  Import took 0.004878 seconds .
+  Time since last request: 1646.431055 seconds.
+  path: Assets/Developers/Prefabs/Particle System.prefab
+  artifactKey: Guid(770e41edcb5381c42849711985552868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Developers/Prefabs/Particle System.prefab using Guid(770e41edcb5381c42849711985552868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23d2ce90de2bcf554fe4bc4e319044c') in 0.009856 seconds
+  Import took 0.011961 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.768077 seconds.
-  path: Assets/Scenes/Game/Levels/Level1/LightingData 1.asset
-  artifactKey: Guid(d9b289bded1a090489bd1bf53eaf7374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game/Levels/Level1/LightingData 1.asset using Guid(d9b289bded1a090489bd1bf53eaf7374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1870dfca8b648ea3a2612b231ad5b8') in 0.003366 seconds
-  Import took 0.005478 seconds .
+  Time since last request: 0.006266 seconds.
+  path: Assets/Developers/Prefabs/Particle System.prefab
+  artifactKey: Guid(770e41edcb5381c42849711985552868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Developers/Prefabs/Particle System.prefab using Guid(770e41edcb5381c42849711985552868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23d2ce90de2bcf554fe4bc4e319044c') in 0.004148 seconds
+  Import took 0.005960 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 84.974514 seconds.
-  path: Assets/Scenes/Game/Levels/Level2
-  artifactKey: Guid(5242bf0200eb5534aa5645bda3545219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game/Levels/Level2 using Guid(5242bf0200eb5534aa5645bda3545219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b78c33a197d0ad520d57efd0cfdd68a') in 0.003612 seconds
-  Import took 0.005540 seconds .
+  Time since last request: 8.849220 seconds.
+  path: Assets/Developers/Prefabs/Plane.prefab
+  artifactKey: Guid(34393df946b8f024087f7cd27aa4fa6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Developers/Prefabs/Plane.prefab using Guid(34393df946b8f024087f7cd27aa4fa6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682e51666c4ff1e0d476c8a1c75f4ba3') in 0.012507 seconds
+  Import took 0.015007 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.158018 seconds.
-  path: Assets/Scenes/Game/Levels/Level2/LightingData.asset
-  artifactKey: Guid(8b1685a817b837145bf7f3e2f2d60da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game/Levels/Level2/LightingData.asset using Guid(8b1685a817b837145bf7f3e2f2d60da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02caed068dd90cd4199fdfe3d09d4c90') in 0.002818 seconds
-  Import took 0.004596 seconds .
+  Time since last request: 0.009994 seconds.
+  path: Assets/Developers/Prefabs/Plane.prefab
+  artifactKey: Guid(34393df946b8f024087f7cd27aa4fa6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Developers/Prefabs/Plane.prefab using Guid(34393df946b8f024087f7cd27aa4fa6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682e51666c4ff1e0d476c8a1c75f4ba3') in 0.007806 seconds
+  Import took 0.009793 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/Scenes/Game/Levels/Level2/ReflectionProbe-0.exr
-  artifactKey: Guid(23f690c148434fd4c961101f194ea051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game/Levels/Level2/ReflectionProbe-0.exr using Guid(23f690c148434fd4c961101f194ea051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d6459ea4ae620734da0008f4c6740e') in 0.010738 seconds
-  Import took 0.012546 seconds .
+  Time since last request: 7.861222 seconds.
+  path: Assets/Developers/Prefabs/FloorPrefab.prefab
+  artifactKey: Guid(34393df946b8f024087f7cd27aa4fa6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Developers/Prefabs/FloorPrefab.prefab using Guid(34393df946b8f024087f7cd27aa4fa6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4791bda7ee2a0d1b0fe5d598b31a0de8') in 0.008159 seconds
+  Import took 0.010074 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.492154 seconds.
-  path: Assets/Scenes/Game/Levels/Level2.unity
-  artifactKey: Guid(64f092038d054484797a915bdb124de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game/Levels/Level2.unity using Guid(64f092038d054484797a915bdb124de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12dde73b9c41cd1bc4cadccfbe7109da') in 0.002839 seconds
-  Import took 0.004572 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000717 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.737 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1102 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 62.3 MB.
-System memory in use after: 62.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1585.
-Total: 1.613700 ms (FindLiveObjects: 0.114200 ms CreateObjectMapping: 0.030100 ms MarkObjects: 1.431100 ms  DeleteObjects: 0.037400 ms)
+  Time since last request: 0.008802 seconds.
+  path: Assets/Developers/Prefabs/FloorPrefab.prefab
+  artifactKey: Guid(34393df946b8f024087f7cd27aa4fa6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Developers/Prefabs/FloorPrefab.prefab using Guid(34393df946b8f024087f7cd27aa4fa6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4791bda7ee2a0d1b0fe5d598b31a0de8') in 0.007366 seconds
+  Import took 0.009802 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
