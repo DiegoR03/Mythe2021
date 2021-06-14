@@ -25,7 +25,7 @@ public class Patrol : MonoBehaviour
     {
         transform.position = Vector3.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
 
-        if(Vector3.Distance(transform.position, moveSpots[randomSpot].position) < 0.2)
+        if(Vector3.Distance(transform.position, moveSpots[randomSpot].position) < 0.2f)
         {
             if(waitTime <= 0)
             {
