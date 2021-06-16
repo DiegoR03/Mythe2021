@@ -42,7 +42,7 @@ public class Patrol : MonoBehaviour
         }
 
         Vector3 dir = moveSpots[randomSpot].position - transform.position;
-        float angle = Mathf.Atan2(dir.x, dir.y) * Mathf.Rad2Deg;
+        float angle = Mathf.Atan2(dir.x, dir.z) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.up);
 
 
