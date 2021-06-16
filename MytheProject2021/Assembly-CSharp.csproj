@@ -63,8 +63,9 @@
     <Compile Include="Assets\Developers\Scripts\Patrol.cs" />
     <Compile Include="Assets\Developers\Scripts\UI Scripts\Pause.cs" />
     <Compile Include="Assets\Developers\Scripts\UI Scripts\LevelSelect.cs" />
-    <Compile Include="Assets\Developers\Scripts\FieldOfView.cs" />
     <Compile Include="Assets\Developers\Scripts\UI Scripts\ReloadScene.cs" />
+    <Compile Include="Assets\Developers\Scripts\FieldOfView.cs" />
+    <Compile Include="Assets\Developers\Scripts\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
