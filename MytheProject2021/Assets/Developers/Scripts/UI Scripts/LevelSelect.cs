@@ -10,5 +10,7 @@ public class LevelSelect : MonoBehaviour
     public void LoadLevel1()
     {
         SceneManager.LoadScene(level);
+
+        Time.timeScale = 1f;
     }
 }
