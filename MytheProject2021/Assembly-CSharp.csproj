@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Developers\Scripts\ThirdPersonMovement.cs" />
+    <Compile Include="Assets\Developers\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Developers\Scripts\UI Scripts\InGamePanel.cs" />
     <Compile Include="Assets\Developers\Scripts\SceneSwitch.cs" />
     <Compile Include="Assets\Developers\Scripts\UI Scripts\Menu.cs" />
@@ -65,7 +66,6 @@
     <Compile Include="Assets\Developers\Scripts\UI Scripts\LevelSelect.cs" />
     <Compile Include="Assets\Developers\Scripts\UI Scripts\ReloadScene.cs" />
     <Compile Include="Assets\Developers\Scripts\FieldOfView.cs" />
-    <Compile Include="Assets\Developers\Scripts\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
