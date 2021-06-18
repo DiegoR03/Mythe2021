@@ -56,16 +56,17 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Developers\Scripts\ThirdPersonMovement.cs" />
-    <Compile Include="Assets\Developers\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Developers\Scripts\UI Scripts\InGamePanel.cs" />
-    <Compile Include="Assets\Developers\Scripts\SceneSwitch.cs" />
-    <Compile Include="Assets\Developers\Scripts\UI Scripts\Menu.cs" />
-    <Compile Include="Assets\Developers\Scripts\Patrol.cs" />
-    <Compile Include="Assets\Developers\Scripts\UI Scripts\Pause.cs" />
-    <Compile Include="Assets\Developers\Scripts\UI Scripts\LevelSelect.cs" />
-    <Compile Include="Assets\Developers\Scripts\UI Scripts\ReloadScene.cs" />
-    <Compile Include="Assets\Developers\Scripts\FieldOfView.cs" />
+    <Compile Include="Assets\Artists\Developers\Scripts\ThirdPersonMovement.cs" />
+    <Compile Include="Assets\Artists\Developers\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Artists\Developers\Scripts\UI Scripts\InGamePanel.cs" />
+    <Compile Include="Assets\Artists\Developers\Scripts\SceneSwitch.cs" />
+    <Compile Include="Assets\Artists\Developers\Scripts\UI Scripts\Menu.cs" />
+    <Compile Include="Assets\Artists\Developers\Scripts\Patrol.cs" />
+    <Compile Include="Assets\Artists\Developers\Scripts\UI Scripts\Pause.cs" />
+    <Compile Include="Assets\Artists\Developers\Scripts\UI Scripts\LevelSelect.cs" />
+    <Compile Include="Assets\Artists\Developers\Scripts\UI Scripts\ReloadScene.cs" />
+    <Compile Include="Assets\Artists\Developers\Scripts\FieldOfView.cs" />
+    <Compile Include="Assets\Artists\Developers\Scripts\Sound.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
