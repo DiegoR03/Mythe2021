@@ -7254,6 +7254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lantern (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7136629476520279935, guid: 0b629a08cddfc1d40b3be33aadc2196b, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b629a08cddfc1d40b3be33aadc2196b, type: 3}
 --- !u!4 &1104073609 stripped
