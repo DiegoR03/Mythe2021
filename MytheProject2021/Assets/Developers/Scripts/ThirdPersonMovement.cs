@@ -1,12 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ThirdPersonMovement : MonoBehaviour
 {
     public AudioSource walking;
     public CharacterController controller;
     public Transform cam;
+
+    public GameObject Idle;
+    public GameObject Walking;
 
     public float speed = 6f;
 
@@ -27,7 +31,15 @@ public class ThirdPersonMovement : MonoBehaviour
 
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward; //Makes the player move forward in the camera direction
             controller.Move(moveDir.normalized * speed * Time.deltaTime); //Movement in-game
+            Idle.SetActive(false);
+            Walking.SetActive(true);
+        }
+        else
+        {
             walking.Play();
+
+            Idle.SetActive(true);
+            Walking.SetActive(false);
         }
 
     }
