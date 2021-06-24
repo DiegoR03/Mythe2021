@@ -1563,10 +1563,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 552307700}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1585405c029e45740adfba6c558141b8, type: 3}
+  m_Script: {fileID: 11500000, guid: ac0f31544f0f44f4abc041c7cfdc721b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Panel: {fileID: 1132539260}
+  level: Tutorial
 --- !u!114 &552307703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1612,8 +1612,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 552307702}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: OpenPanel
+        m_TargetAssemblyTypeName: LevelSelect, Assembly-CSharp
+        m_MethodName: LoadLevel1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
