@@ -12,6 +12,7 @@ public class ThirdPersonMovement : MonoBehaviour
     public GameObject Idle;
     public GameObject Walking;
 
+
     public float speed = 6f;
 
     public float turnSmoothTime = 0.1f;

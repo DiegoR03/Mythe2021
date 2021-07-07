@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Patrol : MonoBehaviour
 {
@@ -9,6 +10,11 @@ public class Patrol : MonoBehaviour
     public float startWaitTime;
     public float smooth = 1f;
     public bool arrived = true;
+
+    public GameObject FrontIdle;
+    public GameObject BackIdle;
+    public GameObject FrontWalking;
+    public GameObject BackWalking;
 
     private Quaternion targetRotation;
 
@@ -24,10 +30,11 @@ public class Patrol : MonoBehaviour
     void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
-
-        if(Vector3.Distance(transform.position, moveSpots[randomSpot].position) < 0.2f)
+        Moving();
+        if (Vector3.Distance(transform.position, moveSpots[randomSpot].position) < 0.2f)
         {
-            if(waitTime <= 0)
+            Idle();
+            if (waitTime <= 0)
             {
                 Turn();
                 randomSpot = Random.Range(0, moveSpots.Length);
@@ -38,6 +45,7 @@ public class Patrol : MonoBehaviour
             {
                 waitTime -= Time.deltaTime;
                 arrived = false;
+
             }
         }
 
@@ -76,6 +84,22 @@ public class Patrol : MonoBehaviour
         targetRotation = Quaternion.LookRotation(-transform.forward, Vector3.up);
 
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, smooth * Time.deltaTime);
+    }
+
+    void Moving()
+    {
+        FrontIdle.SetActive(false);
+        BackIdle.SetActive(false);
+        FrontWalking.SetActive(true);
+        BackWalking.SetActive(true);
+    }
+
+    void Idle()
+    {
+        FrontIdle.SetActive(true);
+        BackIdle.SetActive(true);
+        FrontWalking.SetActive(false);
+        BackWalking.SetActive(false);
     }
 
 }

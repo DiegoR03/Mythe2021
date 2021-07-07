@@ -17,6 +17,8 @@ public class FieldOfView : MonoBehaviour
 
     public bool canSeePlayer;
 
+    public float MeshResolution;
+
     private void Start()
     {
         playerRef = GameObject.FindGameObjectWithTag("Player");
@@ -65,6 +67,7 @@ public class FieldOfView : MonoBehaviour
         else if (canSeePlayer)
             canSeePlayer = false;
     }
+
 
     public void GameOver()
     {
