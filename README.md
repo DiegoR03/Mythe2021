@@ -24,7 +24,6 @@ Overige software:
 
 ## Scrum
 - Trello: https://trello.com/b/CyMkUgTp/toren-van-babel-mythe
-- Github: https://github.com/D-RaMedia/Mythe2021
 
 ## Sprints
 - Sprint 1: 04/26/2021 + Workshops > 05/21/2021
